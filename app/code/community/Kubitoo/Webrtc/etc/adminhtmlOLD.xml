@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<config>
+    <menu>
+        <kubitoo_webrtc translate="title" module="kubitoo_webrtc">
+            <title>Configuration Kubitoo</title>
+            <sort_order>75</sort_order>
+            <depends>
+                <module>Kubitoo_Webrtc</module>
+            </depends>
+            <children>
+                <configuration translate="title" module="kubitoo_webrtc">
+                    <title>Manage Configurations</title>
+                    <sort_order>10</sort_order>
+					<action>kubitoo_webrtc_admin/configuration</action>
+                </configuration>
+            </children>
+        </kubitoo_webrtc>
+    </menu>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <kubitoo_webrtc translate="title" module="kubitoo_webrtc">
+                        <title>Configuration Kubitoo</title>
+                        <sort_order>75</sort_order>
+                        <children>
+                            <configuration translate="title" module="kubitoo_webrtc">
+                                <title>Manage Configurations</title>
+                            </configuration>
+                        </children>
+                    </kubitoo_webrtc>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>
