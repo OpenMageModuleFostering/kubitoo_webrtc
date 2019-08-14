@@ -49,8 +49,19 @@ class Kubitoo_Webrtc_Block_Adminhtml_Configuration_Edit_Form extends Mage_Adminh
                 'input' => 'text',
                 'required' => true,
             ),
+            'language' => array(
+                'label' => $this->__('Language'),
+                'input' => 'select',
+                'required' => true,
+                'options' => array('en_US'=>'English','it_IT'=>'Italiano'),
+            ),
             'htmlbutton' => array(
                 'label' => $this->__('HTML Button'),
+                'input' => 'hidden',
+                'required' => true,
+            ),
+            'imgbutton' => array(
+                'label' => $this->__('Img Button'),
                 'input' => 'hidden',
                 'required' => true,
             ),

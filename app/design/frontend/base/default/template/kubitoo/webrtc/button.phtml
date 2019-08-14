@@ -5,11 +5,11 @@
 ?>
 
 
-<a href="javascript:window.open('https://client.kubitoo.com/index.php?tokenid=<?php echo $button->getFirstItem()->getTokenid(); ?>','LiveSupport','width=450, height=450, directories=no,titlebar=no,toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=no');void(0);" class="btn_kubitoo">
+<a href="javascript:window.open('https://client.kubitoo.com/index.php?tokenid=<?php echo $button->getFirstItem()->getTokenid(); ?>&amp;lang=<?php echo $button->getFirstItem()->getLanguage(); ?>','LiveSupport','width=450, height=450, directories=no,titlebar=no,toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=no');void(0);" class="btn_kubitoo">
+	<?php echo $button->getFirstItem()->getImgbutton(); ?>
 	<span><?php echo $button->getFirstItem()->getTextbutton(); ?></span>
 </a>
 
 <?php echo $button->getFirstItem()->getHtmlbutton(); ?>
-
 
 <?php endif; ?>

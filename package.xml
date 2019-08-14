@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>Kubitoo_Webrtc</name>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
     <stability>stable</stability>
     <license>GPL</license>
     <channel>community</channel>
@@ -14,11 +14,14 @@ Per poter attivare il servizio, dopo aver installato il plugin, sar&#xE0; necess
 - Chiamate webRTC&#xD;
 - DTMF&#xD;
 - Form per messaggio testuale di segreteria&#xD;
-- Form per messaggio vocale di segreteria</notes>
+- Form per messaggio vocale di segreteria&#xD;
+- Lingua Client&#xD;
+&#xD;
+Nuova grafica</notes>
     <authors><author><name>YourVoice</name><user>vlabracayv</user><email>vincenzo.labraca@yourvoice.com</email></author></authors>
-    <date>2016-04-27</date>
-    <time>10:08:27</time>
-    <contents><target name="magecommunity"><dir name="Kubitoo"><dir name="Webrtc"><dir name="Block"><dir name="Adminhtml"><dir name="Configuration"><dir name="Edit"><dir name="Field"><file name="Custom.php" hash="805876c9c45d93f4fbdc167e816f7538"/></dir><file name="Form.php" hash="cb6b38c5933124824eba88626f539d62"/></dir><file name="Edit.php" hash="1b97b945f389621ba579ee214dddaaec"/><file name="Grid.php" hash="95734461b3f197743eec19353c6d0273"/></dir><file name="Configuration.php" hash="561121a0389303791414f69ce30118ed"/></dir></dir><dir name="Helper"><file name="Data.php" hash="e94871085183ec97a1de3d77a201b8d5"/></dir><dir name="Model"><file name="Configuration.php" hash="ea0f415fbb4ed65c2bd659f948bf165a"/><dir name="Resource"><dir name="Configuration"><file name="Collection.php" hash="305e8e0544ef1dbc9ce33db52f23f08d"/></dir><file name="Configuration.php" hash="dd2ddb28dd003e10aab0eda279ca254b"/></dir></dir><dir name="controllers"><dir name="Adminhtml"><file name="ConfigurationController.php" hash="570ba7f082e2503cc376fe3bc72f27a7"/></dir></dir><dir name="etc"><file name="adminhtmlOLD.xml" hash="019f516fb1277bf1ea20fe755e15e2b5"/><file name="config.xml" hash="c50c3a853acd73915cd863a2fb048f18"/></dir><dir name="sql"><dir name="kubitoo_webrtc_setup"><file name="install-1.0.0.php" hash="c77a92fdb19a551079f1fce88084123f"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Kubitoo_Webrtc.xml" hash="7dc00550bd648245e2bb4ad325322898"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="kubitoo_webrtc.xml" hash="600ac48d0023775818c9f67b1f845023"/></dir><dir name="template"><dir name="kubitoo"><dir name="webrtc"><file name="button.phtml" hash="b61bd9b69f2003a6d639c9b0d6b541f8"/></dir><file name=".DS_Store" hash="9606dcd4854c8b32c2107098204ca301"/></dir></dir></dir></dir></dir></target><target name="mageskin"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="images"><dir name="kubitoo"><file name="sf_bottone1.png" hash="ac45a1961e96b85bd1d39650593c7981"/><file name="sf_bottone1_sel.png" hash="1061e1c9e90539e52e7aca3b0d7268f3"/><file name="sf_bottone2.png" hash="5b5cbea86dd6c408cf59a83e2c15e0e8"/><file name="sf_bottone2_sel.png" hash="904a517018c9ca843e95293878180a43"/><file name="sf_bottone3.png" hash="3b45cb259d444ac18499635f4c9c36ae"/><file name="sf_bottone3_sel.png" hash="d53bbf96d4314424b9c4328733c44e60"/></dir></dir></dir></dir></dir></target></contents>
+    <date>2016-06-23</date>
+    <time>07:36:46</time>
+    <contents><target name="magecommunity"><dir name="Kubitoo"><dir name="Webrtc"><dir name="Block"><dir name="Adminhtml"><dir name="Configuration"><dir name="Edit"><dir name="Field"><file name="Custom.php" hash="a87bdc992349b94ef8aff7508e18ffa8"/></dir><file name="Form.php" hash="9b6cbbe03bcd3dcbf29f2fee2bc794f0"/></dir><file name="Edit.php" hash="1b97b945f389621ba579ee214dddaaec"/><file name="Grid.php" hash="95734461b3f197743eec19353c6d0273"/></dir><file name="Configuration.php" hash="561121a0389303791414f69ce30118ed"/></dir></dir><dir name="Helper"><file name="Data.php" hash="e94871085183ec97a1de3d77a201b8d5"/></dir><dir name="Model"><file name="Configuration.php" hash="ea0f415fbb4ed65c2bd659f948bf165a"/><dir name="Resource"><dir name="Configuration"><file name="Collection.php" hash="305e8e0544ef1dbc9ce33db52f23f08d"/></dir><file name="Configuration.php" hash="dd2ddb28dd003e10aab0eda279ca254b"/></dir></dir><dir name="controllers"><dir name="Adminhtml"><file name="ConfigurationController.php" hash="570ba7f082e2503cc376fe3bc72f27a7"/></dir></dir><dir name="etc"><file name="adminhtmlOLD.xml" hash="019f516fb1277bf1ea20fe755e15e2b5"/><file name="config.xml" hash="ff8f19a293bb6f9910b84ad9add5a5b9"/></dir><dir name="sql"><dir name="kubitoo_webrtc_setup"><file name="install-1.0.0.php" hash="c77a92fdb19a551079f1fce88084123f"/><file name="mysql4-upgrade-1.0.0-1.1.0.php" hash="7b304e24450a3bdae13a5541e5872d1d"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Kubitoo_Webrtc.xml" hash="7dc00550bd648245e2bb4ad325322898"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="kubitoo_webrtc.xml" hash="600ac48d0023775818c9f67b1f845023"/></dir><dir name="template"><dir name="kubitoo"><dir name="webrtc"><file name="button.phtml" hash="c0ca7e25e58bcdf959a62041723bbf95"/></dir><file name=".DS_Store" hash="72356778e79764d60d1cc1228ef5cae3"/></dir></dir></dir></dir></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.3.0</min><max>5.6.10</max></php></required></dependencies>
 </package>
